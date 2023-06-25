@@ -1,15 +1,36 @@
+* {
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  flex-wrap: wrap;
 }
 
 img {
   width: 100px;
   height: 100px;
+ 
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  min-height:40px;
+  margin-bottom:20px;
+
+}
+
+.images-div {
+  display:flex;
+
 }
 
 /* do not edit this footer */
@@ -23,4 +44,25 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.di {
+  width:220px;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.div-2 {
+  margin:10px; 
+}
+
+.div-3 {
+  margin-right:10px; 
+}
+
+.text {
+  margin-top:10px;
+  text-align: center;
+  flex:1;
 }
