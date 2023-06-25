@@ -1,6 +1,17 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  min-height:50px;
+  display:flex;
+  justify-content: space-between;
+  padding:1%;
+  align-items: center;
 }
 
 .logo {
@@ -22,4 +33,11 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.left-links ul , .right-links ul {
+  display:flex;
+}
+ul li:nth-child(2) {
+margin:0 10px;
 }
